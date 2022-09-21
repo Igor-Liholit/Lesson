@@ -18,7 +18,8 @@ public class HomeWorkApp {
         System.out.println(chekBoolean(-5));
         System.out.println();
         stringAndNumbers("Hello", 4);
-        System.out.println(leapYear(1900));
+        System.out.println();
+        System.out.println(leapYear(2000));   // added sout for convenient display
     }
 
     public static void printThreeWords() {
@@ -87,6 +88,10 @@ public class HomeWorkApp {
     }
 
     public static boolean leapYear(int year) {
-
+        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
