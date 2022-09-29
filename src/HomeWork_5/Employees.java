@@ -1,11 +1,11 @@
 package HomeWork_5;
 
 public class Employees {
-        private String fullName;
-        private String jobTitle;
-        private String email;
-        private int employeePhone;
-        private int employeesAge;
+    private String fullName;
+    private String jobTitle;
+    private String email;
+    private int employeePhone;
+    private int employeesAge;
 
     public String getFullName() {
         return fullName;
