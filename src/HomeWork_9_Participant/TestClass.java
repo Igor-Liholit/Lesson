@@ -1,4 +1,4 @@
-package HomeWork_8_Participant;
+package HomeWork_9_Participant;
 
 public class TestClass {
     public static void main(String[] args) {

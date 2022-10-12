@@ -1,7 +1,7 @@
-package HomeWork_8_Participant;
+package HomeWork_9_Participant;
 
-public class Human extends Participant{
-    public Human(String name, double runningDistance, double jumpHeight) {
+public class Cat extends Participant{
+    public Cat(String name, double runningDistance, double jumpHeight) {
         super(name, runningDistance, jumpHeight);
     }
 

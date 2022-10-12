@@ -1,4 +1,4 @@
-package HomeWork_8;
+package HomeWork_9;
 
 public class Square  implements  Figure{
     private double numSquare1;

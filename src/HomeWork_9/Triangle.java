@@ -1,4 +1,4 @@
-package HomeWork_8;
+package HomeWork_9;
 
   public class Triangle implements Figure {
     private double catetTriangle1;

@@ -1,4 +1,4 @@
-package HomeWork_8_Participant;
+package HomeWork_9_Participant;
 
 public class RunningTrack extends Obstacle {
     private static final String overcome = "run";
