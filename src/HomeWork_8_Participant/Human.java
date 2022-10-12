@@ -10,7 +10,6 @@ public class Human extends Participant{
         if (!(obstacle instanceof RunningTrack)){
             return;
         }
-
         System.out.println(getName() + " " + obstacle.overcome() +
                 "s the track " + obstacle.getLenth() + " meters long");
     }
@@ -20,7 +19,6 @@ public class Human extends Participant{
         if (!(obstacle instanceof Wall)){
             return;
         }
-
         System.out.println(getName() + " " + obstacle.overcome() + " the wall "
                 + obstacle.getHight() + " meters long");
     }
