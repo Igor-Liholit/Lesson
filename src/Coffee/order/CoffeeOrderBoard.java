@@ -8,9 +8,7 @@ public class CoffeeOrderBoard {
 
     private final LinkedList<Order> ordersInProgress = new LinkedList<>();
 
-    public void add() {
-        add(" ");
-    }
+
 
     public void add(String nameClient) {
         ordersInProgress.addLast(new Order(++lastOrderNumber, nameClient));

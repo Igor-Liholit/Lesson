@@ -8,6 +8,7 @@ public class Main   {
         orderBoard.add("Petya");
         orderBoard.add("Artem");
         orderBoard.add("Petro");
+
         orderBoard.deliver(12);
         orderBoard.deliver(52);
         orderBoard.deliver(124);
